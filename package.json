@@ -1,0 +1,26 @@
+{
+  "name": "@zingle/kafka-queue",
+  "version": "0.0.1",
+  "description": "async queue backed by Kafka",
+  "main": "kafka-queue.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Zingle/node-kafka-queue.git"
+  },
+  "author": "Richard Remer <reanjr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zingle/node-kafka-queue/issues"
+  },
+  "homepage": "https://github.com/Zingle/node-kafka-queue#readme",
+  "dependencies": {
+    "kafkajs": "^1.15.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "sinon": "^9.2.4"
+  }
+}
